@@ -1,3 +1,5 @@
+
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -23,7 +25,7 @@ public class playchoice extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -34,12 +36,13 @@ public class playchoice extends JFrame {
 				}
 			}
 		});
-	}
+	}*/
 
 	/**
 	 * Create the frame.
 	 */
 	public playchoice() {
+		setResizable(false);
 		setTitle("全民數獨通");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
@@ -81,8 +84,9 @@ public class playchoice extends JFrame {
 		JButton btnPlayer = new JButton("以玩家身份開始");
 		btnPlayer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				playboard pb=new playboard();
-				pb.show();
+				application.player=true;
+				application.frmpb.setVisible(true);
+				application.frmpc.setVisible(false);
 			}
 		});
 		GridBagConstraints gbc_btnPlayer = new GridBagConstraints();
@@ -94,6 +98,9 @@ public class playchoice extends JFrame {
 		JButton btnComputer = new JButton("以電腦身份開始");
 		btnComputer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				application.player=false;
+				application.frmpb.setVisible(true);
+				application.frmpc.setVisible(false);
 			}
 		});
 		GridBagConstraints gbc_btnComputer = new GridBagConstraints();
@@ -105,6 +112,8 @@ public class playchoice extends JFrame {
 		JButton btnReturn = new JButton("返回");
 		btnReturn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				application.frmtitle.setVisible(true);
+				application.frmpc.setVisible(false);
 			}
 		});
 		GridBagConstraints gbc_btnReturn = new GridBagConstraints();

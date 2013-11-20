@@ -23,7 +23,7 @@ public class playboard extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -34,12 +34,13 @@ public class playboard extends JFrame {
 				}
 			}
 		});
-	}
+	}*/
 
 	/**
 	 * Create the frame.
 	 */
 	public playboard() {
+		setResizable(false);
 		setTitle("全民數獨通");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 480, 380);
@@ -60,6 +61,12 @@ public class playboard extends JFrame {
 		contentPane.add(lblNewLabel, gbc_lblNewLabel);
 		
 		JButton btnGiveup = new JButton("放棄解題");
+		btnGiveup.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				application.frmpc.setVisible(true);
+				application.frmpb.setVisible(false);
+			}
+		});
 		GridBagConstraints gbc_btnGiveup = new GridBagConstraints();
 		gbc_btnGiveup.insets = new Insets(0, 0, 5, 0);
 		gbc_btnGiveup.gridx = 2;

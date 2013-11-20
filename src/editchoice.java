@@ -9,6 +9,8 @@ import javax.swing.JList;
 import java.awt.GridBagConstraints;
 import javax.swing.JButton;
 import java.awt.Insets;
+
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JRadioButton;
@@ -24,7 +26,7 @@ public class editchoice extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -35,12 +37,13 @@ public class editchoice extends JFrame {
 				}
 			}
 		});
-	}
+	}*/
 
 	/**
 	 * Create the frame.
 	 */
 	public editchoice() {
+		setResizable(false);
 		setTitle("全民數獨通");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
@@ -84,8 +87,8 @@ public class editchoice extends JFrame {
 		JButton btnEdit = new JButton("編輯此題庫");
 		btnEdit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				editboard eb=new editboard();
-				eb.show();
+				application.frmeb.setVisible(true);
+				application.frmec.setVisible(false);
 			}
 		});
 		GridBagConstraints gbc_btnEdit = new GridBagConstraints();
@@ -98,6 +101,12 @@ public class editchoice extends JFrame {
 		JButton btnDelete = new JButton("刪除此題庫");
 		btnDelete.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				int result=JOptionPane.showOptionDialog(null,"是否確定要刪除？","請確認",0,0,null,null,null);
+				
+				//若點點的是決定要移除
+				if(result==0){
+					
+				}
 			}
 		});
 		GridBagConstraints gbc_btnDelete = new GridBagConstraints();
@@ -110,7 +119,8 @@ public class editchoice extends JFrame {
 		JButton btnReturn = new JButton("返回");
 		btnReturn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+				application.frmtitle.setVisible(true);
+				application.frmec.setVisible(false);
 			}
 		});
 		GridBagConstraints gbc_btnReturn = new GridBagConstraints();
@@ -128,6 +138,7 @@ public class editchoice extends JFrame {
 		contentPane.add(label, gbc_label);
 		
 		JRadioButton rdbtnTemplate3 = new JRadioButton("3x3");
+		rdbtnTemplate3.setSelected(true);
 		GridBagConstraints gbc_rdbtnTemplate3 = new GridBagConstraints();
 		gbc_rdbtnTemplate3.insets = new Insets(0, 0, 0, 5);
 		gbc_rdbtnTemplate3.gridx = 1;

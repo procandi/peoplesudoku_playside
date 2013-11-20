@@ -12,9 +12,12 @@ import javax.swing.ImageIcon;
 import java.awt.Window.Type;
 import java.awt.Dialog.ModalExclusionType;
 import java.awt.Frame;
+import javax.swing.JEditorPane;
+import java.awt.Font;
+import java.awt.Color;
 
 
-public class title extends JFrame {
+public class about extends JFrame {
 
 	private JPanel contentPane;
 
@@ -37,47 +40,31 @@ public class title extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public title() {
+	public about() {
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setTitle("ÂÖ®Ê∞ëÊï∏Áç®ÈÄö");
+		setTitle("•˛•¡º∆øW≥q");
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
 		
-		JButton btnPlay = new JButton("ÈÄ≤ÂÖ•Ëß£È°å");
-		btnPlay.addActionListener(new ActionListener() {
+		JEditorPane dtrpnXxxx = new JEditorPane();
+		dtrpnXxxx.setBackground(Color.PINK);
+		dtrpnXxxx.setForeground(Color.BLUE);
+		dtrpnXxxx.setFont(new Font("º–∑¢≈È", Font.BOLD, 18));
+		dtrpnXxxx.setText("\u5168\u6C11\u6578\u7368\u901A\r\n\r\n\u6307\u5C0E\u6559\u6388:\r\nxxxx\r\n\r\n\u88FD\u4F5C\u5718\u968A:\r\nxxxx\r\nxxxx\r\nxxxx\r\nxxxx\r\nxxxx");
+		contentPane.add(dtrpnXxxx, BorderLayout.CENTER);
+		
+		JButton btnReturn = new JButton("\u8FD4\u56DE");
+		btnReturn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				application.frmtitle.setVisible(false);
-				application.frmpc.setVisible(true);
+				application.frmtitle.setVisible(true);
+				application.frmabout.setVisible(false);
 			}
 		});
-		contentPane.add(btnPlay, BorderLayout.WEST);
-		
-		JButton btnEdit = new JButton("Á∑®ËºØÈ°åÂ∫´");
-		btnEdit.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				application.frmtitle.setVisible(false);
-				application.frmec.setVisible(true);
-			}
-		});
-		contentPane.add(btnEdit, BorderLayout.EAST);
-		
-		JButton btnAbout = new JButton("ÈóúÊñº");
-		btnAbout.setActionCommand("ÈóúÊñº");
-		btnAbout.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				application.frmabout.setVisible(true);
-				application.frmtitle.setVisible(false);
-			}
-		});
-		contentPane.add(btnAbout, BorderLayout.SOUTH);
-		
-		JButton button = new JButton("");
-		button.setIcon(new ImageIcon("title.png"));
-		contentPane.add(button, BorderLayout.CENTER);
+		contentPane.add(btnReturn, BorderLayout.EAST);
 	}
 
 }

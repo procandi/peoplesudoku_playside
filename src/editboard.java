@@ -25,7 +25,7 @@ public class editboard extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -36,12 +36,13 @@ public class editboard extends JFrame {
 				}
 			}
 		});
-	}
+	}*/
 
 	/**
 	 * Create the frame.
 	 */
 	public editboard() {
+		setResizable(false);
 		setTitle("全民數獨通");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 480, 400);
@@ -64,6 +65,8 @@ public class editboard extends JFrame {
 		JButton btnCommit = new JButton("確認儲存");
 		btnCommit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				application.frmec.setVisible(true);
+				application.frmeb.setVisible(false);
 			}
 		});
 		GridBagConstraints gbc_btnCommit = new GridBagConstraints();
@@ -73,6 +76,12 @@ public class editboard extends JFrame {
 		contentPane.add(btnCommit, gbc_btnCommit);
 		
 		JButton btnGiveup = new JButton("放棄編輯");
+		btnGiveup.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				application.frmec.setVisible(true);
+				application.frmeb.setVisible(false);
+			}
+		});
 		GridBagConstraints gbc_btnGiveup = new GridBagConstraints();
 		gbc_btnGiveup.insets = new Insets(0, 0, 5, 0);
 		gbc_btnGiveup.gridx = 2;
