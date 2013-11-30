@@ -8,6 +8,9 @@ public class application {
 	public static editboard frmeb = new editboard();
 	
 	public static boolean player;
+	public static String targettemplate;
+	
+	
 	
 	
 	public static void main(String[] args) {

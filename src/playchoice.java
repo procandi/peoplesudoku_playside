@@ -15,12 +15,41 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.File;
+import java.util.Vector;
 
 
 public class playchoice extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textTemplate;
+	
+	JList listTemplate = new JList();
+	
+	
+	
+	/*取得樣版清單*/
+	public static void getsudokulist(){
+		int i;
+		String regex;
+		String[] filelist;
+		Vector v=new Vector();
+		
+		filelist=clsFile.GetFileList(".");
+		regex="^.+.sudoku$";
+				
+		for(i=0;i<filelist.length;i++){
+			if(filelist[i].matches(regex)){
+				v.add(filelist[i].replace(".\\", "").replace(".sudoku", ""));
+			}
+		}
+		
+		application.frmpc.listTemplate.setListData(v);
+	}
+	
+	
 
 	/**
 	 * Launch the application.
@@ -63,7 +92,12 @@ public class playchoice extends JFrame {
 		gbc_lblNewLabel.gridy = 0;
 		contentPane.add(lblNewLabel, gbc_lblNewLabel);
 		
-		JList listTemplate = new JList();
+		listTemplate.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				textTemplate.setText((String)listTemplate.getSelectedValue());
+			}
+		});
 		GridBagConstraints gbc_listTemplate = new GridBagConstraints();
 		gbc_listTemplate.gridwidth = 2;
 		gbc_listTemplate.gridheight = 7;
@@ -84,6 +118,17 @@ public class playchoice extends JFrame {
 		JButton btnPlayer = new JButton("以玩家身份開始");
 		btnPlayer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				/*檢查看看此檔名是否已經存在，已存在的情況下，就把資料讀取出來*/
+				application.targettemplate=textTemplate.getText();
+			    File f;
+			    f = new File(application.targettemplate+".sudoku");
+				if(f.exists()){
+					application.frmpb.loadtemplate();
+				}else{
+					application.frmpb.cleartemplate();
+				}
+				
+				
 				application.player=true;
 				application.frmpb.setVisible(true);
 				application.frmpc.setVisible(false);
@@ -98,7 +143,20 @@ public class playchoice extends JFrame {
 		JButton btnComputer = new JButton("以電腦身份開始");
 		btnComputer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				application.player=false;
+				/*檢查看看此檔名是否已經存在，已存在的情況下，就把資料讀取出來*/
+				application.targettemplate=textTemplate.getText();
+			    File f;
+			    f = new File(application.targettemplate+".sudoku");
+				if(f.exists()){
+					application.frmpb.loadtemplate();
+				}else{
+					application.frmpb.cleartemplate();
+				}
+				
+				
+				/*如果是電腦玩遊戲的話，讓電腦直接跑遞迴算出解答*/
+				application.player=false;				
+				application.frmpb.computerhandle();
 				application.frmpb.setVisible(true);
 				application.frmpc.setVisible(false);
 			}

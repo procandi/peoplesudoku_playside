@@ -50,6 +50,7 @@ public class title extends JFrame {
 		JButton btnPlay = new JButton("進入解題");
 		btnPlay.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				application.frmpc.getsudokulist();
 				application.frmtitle.setVisible(false);
 				application.frmpc.setVisible(true);
 			}
@@ -59,6 +60,7 @@ public class title extends JFrame {
 		JButton btnEdit = new JButton("編輯題庫");
 		btnEdit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				application.frmec.getsudokulist();
 				application.frmtitle.setVisible(false);
 				application.frmec.setVisible(true);
 			}
