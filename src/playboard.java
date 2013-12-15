@@ -115,7 +115,7 @@ public class playboard extends JFrame {
 	JButton button3333 = new JButton("   ");
 
 	
-	/*讀取編輯的遊戲面版99999*/
+	/*讀取編輯的遊戲面版*/
 	public static void loadtemplate(){
 		int i;
 		String[] s=new String[82];
@@ -151,12 +151,161 @@ public class playboard extends JFrame {
 		application.frmpb.button1133.setText(s[9]);
 		application.frmpb.res[1][1][3][3]=s[9];
 		
-
+		application.frmpb.button1211.setText(s[10]);
+		application.frmpb.res[1][2][1][1]=s[10];
+		application.frmpb.button1212.setText(s[11]);
+		application.frmpb.res[1][2][1][2]=s[11];
+		application.frmpb.button1213.setText(s[12]);
+		application.frmpb.res[1][2][1][3]=s[12];
+		application.frmpb.button1221.setText(s[13]);
+		application.frmpb.res[1][2][2][1]=s[13];
+		application.frmpb.button1222.setText(s[14]);
+		application.frmpb.res[1][2][2][2]=s[14];
+		application.frmpb.button1223.setText(s[15]);
+		application.frmpb.res[1][2][2][3]=s[15];
+		application.frmpb.button1231.setText(s[16]);
+		application.frmpb.res[1][2][3][1]=s[16];
+		application.frmpb.button1232.setText(s[17]);
+		application.frmpb.res[1][2][3][2]=s[17];
+		application.frmpb.button1233.setText(s[18]);
+		application.frmpb.res[1][2][3][3]=s[18];
+		application.frmpb.button1311.setText(s[19]);
+		application.frmpb.res[1][3][1][1]=s[19];
+		application.frmpb.button1312.setText(s[20]);
+		application.frmpb.res[1][3][1][2]=s[20];
+		application.frmpb.button1313.setText(s[21]);
+		application.frmpb.res[1][3][1][3]=s[21];
+		application.frmpb.button1321.setText(s[22]);
+		application.frmpb.res[1][3][2][1]=s[22];
+		application.frmpb.button1322.setText(s[23]);
+		application.frmpb.res[1][3][2][2]=s[23];
+		application.frmpb.button1323.setText(s[24]);
+		application.frmpb.res[1][3][2][3]=s[24];
+		application.frmpb.button1331.setText(s[25]);
+		application.frmpb.res[1][3][3][1]=s[25];
+		application.frmpb.button1332.setText(s[26]);
+		application.frmpb.res[1][3][3][2]=s[26];
+		application.frmpb.button1333.setText(s[27]);
+		application.frmpb.res[1][3][3][3]=s[27];
+		
+		application.frmpb.button2111.setText(s[28]);
+		application.frmpb.res[2][1][1][1]=s[28];
+		application.frmpb.button2112.setText(s[29]);
+		application.frmpb.res[2][1][1][2]=s[29];
+		application.frmpb.button2113.setText(s[30]);
+		application.frmpb.res[2][1][1][3]=s[30];
+		application.frmpb.button2121.setText(s[31]);
+		application.frmpb.res[2][1][2][1]=s[31];
+		application.frmpb.button2122.setText(s[32]);
+		application.frmpb.res[2][1][2][2]=s[32];
+		application.frmpb.button2123.setText(s[33]);
+		application.frmpb.res[2][1][2][3]=s[33];
+		application.frmpb.button2131.setText(s[34]);
+		application.frmpb.res[2][1][3][1]=s[34];
+		application.frmpb.button2132.setText(s[35]);
+		application.frmpb.res[2][1][3][2]=s[35];
+		application.frmpb.button2133.setText(s[36]);
+		application.frmpb.res[2][1][3][3]=s[36];
+		
+		application.frmpb.button2211.setText(s[37]);
+		application.frmpb.res[2][2][1][1]=s[37];
+		application.frmpb.button2212.setText(s[38]);
+		application.frmpb.res[2][2][1][2]=s[38];
+		application.frmpb.button2213.setText(s[39]);
+		application.frmpb.res[2][2][1][3]=s[39];
+		application.frmpb.button2221.setText(s[40]);
+		application.frmpb.res[2][2][2][1]=s[40];
+		application.frmpb.button2222.setText(s[41]);
+		application.frmpb.res[2][2][2][2]=s[41];
+		application.frmpb.button2223.setText(s[42]);
+		application.frmpb.res[2][2][2][3]=s[42];
+		application.frmpb.button2231.setText(s[43]);
+		application.frmpb.res[2][2][3][1]=s[43];
+		application.frmpb.button2232.setText(s[44]);
+		application.frmpb.res[2][2][3][2]=s[44];
+		application.frmpb.button2233.setText(s[45]);
+		application.frmpb.res[2][2][3][3]=s[45];
+		
+		application.frmpb.button2311.setText(s[46]);
+		application.frmpb.res[2][3][1][1]=s[46];
+		application.frmpb.button2312.setText(s[47]);
+		application.frmpb.res[2][3][1][2]=s[47];
+		application.frmpb.button2313.setText(s[48]);
+		application.frmpb.res[2][3][1][3]=s[48];
+		application.frmpb.button2321.setText(s[49]);
+		application.frmpb.res[2][3][2][1]=s[49];
+		application.frmpb.button2322.setText(s[50]);
+		application.frmpb.res[2][3][2][2]=s[50];
+		application.frmpb.button2323.setText(s[51]);
+		application.frmpb.res[2][3][2][3]=s[51];
+		application.frmpb.button2331.setText(s[52]);
+		application.frmpb.res[2][3][3][1]=s[52];
+		application.frmpb.button2332.setText(s[53]);
+		application.frmpb.res[2][3][3][2]=s[53];
+		application.frmpb.button2333.setText(s[54]);
+		application.frmpb.res[2][3][3][3]=s[54];
+		
+		application.frmpb.button3111.setText(s[55]);
+		application.frmpb.res[3][1][1][1]=s[55];
+		application.frmpb.button3112.setText(s[56]);
+		application.frmpb.res[3][1][1][2]=s[56];
+		application.frmpb.button3113.setText(s[57]);
+		application.frmpb.res[3][1][1][3]=s[57];
+		application.frmpb.button3121.setText(s[58]);
+		application.frmpb.res[3][1][2][1]=s[58];
+		application.frmpb.button3122.setText(s[59]);
+		application.frmpb.res[3][1][2][2]=s[59];
+		application.frmpb.button3123.setText(s[60]);
+		application.frmpb.res[3][1][2][3]=s[60];
+		application.frmpb.button3131.setText(s[61]);
+		application.frmpb.res[3][1][3][1]=s[61];
+		application.frmpb.button3132.setText(s[62]);
+		application.frmpb.res[3][1][3][2]=s[62];
+		application.frmpb.button3133.setText(s[63]);
+		application.frmpb.res[3][1][3][3]=s[63];
+		
+		application.frmpb.button3211.setText(s[64]);
+		application.frmpb.res[3][2][1][1]=s[64];
+		application.frmpb.button3212.setText(s[65]);
+		application.frmpb.res[3][2][1][2]=s[65];
+		application.frmpb.button3213.setText(s[66]);
+		application.frmpb.res[3][2][1][3]=s[66];
+		application.frmpb.button3221.setText(s[67]);
+		application.frmpb.res[3][2][2][1]=s[67];
+		application.frmpb.button3222.setText(s[68]);
+		application.frmpb.res[3][2][2][2]=s[68];
+		application.frmpb.button3223.setText(s[69]);
+		application.frmpb.res[3][2][2][3]=s[69];
+		application.frmpb.button3231.setText(s[70]);
+		application.frmpb.res[3][2][3][1]=s[70];
+		application.frmpb.button3232.setText(s[71]);
+		application.frmpb.res[3][2][3][2]=s[71];
+		application.frmpb.button3233.setText(s[72]);
+		application.frmpb.res[3][2][3][3]=s[72];
+		
+		application.frmpb.button3311.setText(s[73]);
+		application.frmpb.res[3][3][1][1]=s[73];
+		application.frmpb.button3312.setText(s[74]);
+		application.frmpb.res[3][3][1][2]=s[74];
+		application.frmpb.button3313.setText(s[75]);
+		application.frmpb.res[3][3][1][3]=s[75];
+		application.frmpb.button3321.setText(s[76]);
+		application.frmpb.res[3][3][2][1]=s[76];
+		application.frmpb.button3322.setText(s[77]);
+		application.frmpb.res[3][3][2][2]=s[77];
+		application.frmpb.button3323.setText(s[78]);
+		application.frmpb.res[3][3][2][3]=s[78];
+		application.frmpb.button3331.setText(s[79]);
+		application.frmpb.res[3][3][3][1]=s[79];
+		application.frmpb.button3332.setText(s[80]);
+		application.frmpb.res[3][3][3][2]=s[80];
+		application.frmpb.button3333.setText(s[81]);
+		application.frmpb.res[3][3][3][3]=s[81];
 		
 	}
 	
 	
-	/*清除編輯的遊戲面版99999*/
+	/*清除編輯的遊戲面版*/
 	public static void cleartemplate(){
 		int i;
 		
@@ -183,7 +332,156 @@ public class playboard extends JFrame {
 		application.frmpb.button1133.setText("   ");
 		application.frmpb.res[1][1][3][3]="   ";
 		
+		application.frmpb.button1211.setText("   ");
+		application.frmpb.res[1][2][1][1]="   ";
+		application.frmpb.button1212.setText("   ");
+		application.frmpb.res[1][2][1][2]="   ";
+		application.frmpb.button1213.setText("   ");
+		application.frmpb.res[1][2][1][3]="   ";
+		application.frmpb.button1221.setText("   ");
+		application.frmpb.res[1][2][2][1]="   ";
+		application.frmpb.button1222.setText("   ");
+		application.frmpb.res[1][2][2][2]="   ";
+		application.frmpb.button1223.setText("   ");
+		application.frmpb.res[1][2][2][3]="   ";
+		application.frmpb.button1231.setText("   ");
+		application.frmpb.res[1][2][3][1]="   ";
+		application.frmpb.button1232.setText("   ");
+		application.frmpb.res[1][2][3][2]="   ";
+		application.frmpb.button1233.setText("   ");
+		application.frmpb.res[1][2][3][3]="   ";
+		application.frmpb.button1311.setText("   ");
+		application.frmpb.res[1][3][1][1]="   ";
+		application.frmpb.button1312.setText("   ");
+		application.frmpb.res[1][3][1][2]="   ";
+		application.frmpb.button1313.setText("   ");
+		application.frmpb.res[1][3][1][3]="   ";
+		application.frmpb.button1321.setText("   ");
+		application.frmpb.res[1][3][2][1]="   ";
+		application.frmpb.button1322.setText("   ");
+		application.frmpb.res[1][3][2][2]="   ";
+		application.frmpb.button1323.setText("   ");
+		application.frmpb.res[1][3][2][3]="   ";
+		application.frmpb.button1331.setText("   ");
+		application.frmpb.res[1][3][3][1]="   ";
+		application.frmpb.button1332.setText("   ");
+		application.frmpb.res[1][3][3][2]="   ";
+		application.frmpb.button1333.setText("   ");
+		application.frmpb.res[1][3][3][3]="   ";
 		
+		application.frmpb.button2111.setText("   ");
+		application.frmpb.res[2][1][1][1]="   ";
+		application.frmpb.button2112.setText("   ");
+		application.frmpb.res[2][1][1][2]="   ";
+		application.frmpb.button1113.setText("   ");
+		application.frmpb.res[2][1][1][3]="   ";
+		application.frmpb.button2121.setText("   ");
+		application.frmpb.res[2][1][2][1]="   ";
+		application.frmpb.button2122.setText("   ");
+		application.frmpb.res[2][1][2][2]="   ";
+		application.frmpb.button2123.setText("   ");
+		application.frmpb.res[2][1][2][3]="   ";
+		application.frmpb.button2131.setText("   ");
+		application.frmpb.res[2][1][3][1]="   ";
+		application.frmpb.button2132.setText("   ");
+		application.frmpb.res[2][1][3][2]="   ";
+		application.frmpb.button2133.setText("   ");
+		application.frmpb.res[2][1][3][3]="   ";
+		
+		application.frmpb.button2211.setText("   ");
+		application.frmpb.res[2][2][1][1]="   ";
+		application.frmpb.button2212.setText("   ");
+		application.frmpb.res[2][2][1][2]="   ";
+		application.frmpb.button2213.setText("   ");
+		application.frmpb.res[2][2][1][3]="   ";
+		application.frmpb.button2221.setText("   ");
+		application.frmpb.res[2][2][2][1]="   ";
+		application.frmpb.button2222.setText("   ");
+		application.frmpb.res[2][2][2][2]="   ";
+		application.frmpb.button2223.setText("   ");
+		application.frmpb.res[2][2][2][3]="   ";
+		application.frmpb.button2231.setText("   ");
+		application.frmpb.res[2][2][3][1]="   ";
+		application.frmpb.button2232.setText("   ");
+		application.frmpb.res[2][2][3][2]="   ";
+		application.frmpb.button2233.setText("   ");
+		application.frmpb.res[2][2][3][3]="   ";
+		
+		application.frmpb.button2311.setText("   ");
+		application.frmpb.res[2][3][1][1]="   ";
+		application.frmpb.button2312.setText("   ");
+		application.frmpb.res[2][3][1][2]="   ";
+		application.frmpb.button2313.setText("   ");
+		application.frmpb.res[2][3][1][3]="   ";
+		application.frmpb.button2321.setText("   ");
+		application.frmpb.res[2][3][2][1]="   ";
+		application.frmpb.button2322.setText("   ");
+		application.frmpb.res[2][3][2][2]="   ";
+		application.frmpb.button2323.setText("   ");
+		application.frmpb.res[2][3][2][3]="   ";
+		application.frmpb.button2331.setText("   ");
+		application.frmpb.res[2][3][3][1]="   ";
+		application.frmpb.button2332.setText("   ");
+		application.frmpb.res[2][3][3][2]="   ";
+		application.frmpb.button2333.setText("   ");
+		application.frmpb.res[2][3][3][3]="   ";
+		
+		application.frmpb.button3111.setText("   ");
+		application.frmpb.res[3][1][1][1]="   ";
+		application.frmpb.button3112.setText("   ");
+		application.frmpb.res[3][1][1][2]="   ";
+		application.frmpb.button3113.setText("   ");
+		application.frmpb.res[3][1][1][3]="   ";
+		application.frmpb.button3121.setText("   ");
+		application.frmpb.res[3][1][2][1]="   ";
+		application.frmpb.button3122.setText("   ");
+		application.frmpb.res[3][1][2][2]="   ";
+		application.frmpb.button3123.setText("   ");
+		application.frmpb.res[3][1][2][3]="   ";
+		application.frmpb.button3131.setText("   ");
+		application.frmpb.res[3][1][3][1]="   ";
+		application.frmpb.button3132.setText("   ");
+		application.frmpb.res[3][1][3][2]="   ";
+		application.frmpb.button3133.setText("   ");
+		application.frmpb.res[3][1][3][3]="   ";
+		
+		application.frmpb.button3211.setText("   ");
+		application.frmpb.res[3][2][1][1]="   ";
+		application.frmpb.button3212.setText("   ");
+		application.frmpb.res[3][2][1][2]="   ";
+		application.frmpb.button3213.setText("   ");
+		application.frmpb.res[3][2][1][3]="   ";
+		application.frmpb.button3221.setText("   ");
+		application.frmpb.res[3][2][2][1]="   ";
+		application.frmpb.button3222.setText("   ");
+		application.frmpb.res[3][2][2][2]="   ";
+		application.frmpb.button3223.setText("   ");
+		application.frmpb.res[3][2][2][3]="   ";
+		application.frmpb.button3231.setText("   ");
+		application.frmpb.res[3][2][3][1]="   ";
+		application.frmpb.button3232.setText("   ");
+		application.frmpb.res[3][2][3][2]="   ";
+		application.frmpb.button3233.setText("   ");
+		application.frmpb.res[3][2][3][3]="   ";
+		
+		application.frmpb.button3311.setText("   ");
+		application.frmpb.res[3][3][1][1]="   ";
+		application.frmpb.button3312.setText("   ");
+		application.frmpb.res[3][3][1][2]="   ";
+		application.frmpb.button3313.setText("   ");
+		application.frmpb.res[3][3][1][3]="   ";
+		application.frmpb.button3321.setText("   ");
+		application.frmpb.res[3][3][2][1]="   ";
+		application.frmpb.button3322.setText("   ");
+		application.frmpb.res[3][3][2][2]="   ";
+		application.frmpb.button3323.setText("   ");
+		application.frmpb.res[3][3][2][3]="   ";
+		application.frmpb.button3331.setText("   ");
+		application.frmpb.res[3][3][3][1]="   ";
+		application.frmpb.button3332.setText("   ");
+		application.frmpb.res[3][3][3][2]="   ";
+		application.frmpb.button3333.setText("   ");
+		application.frmpb.res[3][3][3][3]="   ";
 		
 	}
 	
@@ -278,60 +576,249 @@ public class playboard extends JFrame {
 		}
 	}
 	
+	/*把結果回填到畫面*/
+	void signvalue(){
+		application.frmpb.button1111.setText(res[1][1][1][1]);
+		application.frmpb.button1112.setText(res[1][1][1][2]);
+		application.frmpb.button1113.setText(res[1][1][1][3]);
+		application.frmpb.button1121.setText(res[1][1][2][1]);
+		application.frmpb.button1122.setText(res[1][1][2][2]);
+		application.frmpb.button1123.setText(res[1][1][2][3]);
+		application.frmpb.button1131.setText(res[1][1][3][1]);
+		application.frmpb.button1132.setText(res[1][1][3][2]);
+		application.frmpb.button1133.setText(res[1][1][3][3]);
+		application.frmpb.button1211.setText(res[1][2][1][1]);
+		application.frmpb.button1212.setText(res[1][2][1][2]);
+		application.frmpb.button1213.setText(res[1][2][1][3]);
+		application.frmpb.button1221.setText(res[1][2][2][1]);
+		application.frmpb.button1222.setText(res[1][2][2][2]);
+		application.frmpb.button1223.setText(res[1][2][2][3]);
+		application.frmpb.button1231.setText(res[1][2][3][1]);
+		application.frmpb.button1232.setText(res[1][2][3][2]);
+		application.frmpb.button1233.setText(res[1][2][3][3]);
+		application.frmpb.button1311.setText(res[1][3][1][1]);
+		application.frmpb.button1312.setText(res[1][3][1][2]);
+		application.frmpb.button1313.setText(res[1][3][1][3]);
+		application.frmpb.button1321.setText(res[1][3][2][1]);
+		application.frmpb.button1322.setText(res[1][3][2][2]);
+		application.frmpb.button1323.setText(res[1][3][2][3]);
+		application.frmpb.button1331.setText(res[1][3][3][1]);
+		application.frmpb.button1332.setText(res[1][3][3][2]);
+		application.frmpb.button1333.setText(res[1][3][3][3]);
+		
+		application.frmpb.button2111.setText(res[2][1][1][1]);
+		application.frmpb.button2112.setText(res[2][1][1][2]);
+		application.frmpb.button2113.setText(res[2][1][1][3]);
+		application.frmpb.button2121.setText(res[2][1][2][1]);
+		application.frmpb.button2122.setText(res[2][1][2][2]);
+		application.frmpb.button2123.setText(res[2][1][2][3]);
+		application.frmpb.button2131.setText(res[2][1][3][1]);
+		application.frmpb.button2132.setText(res[2][1][3][2]);
+		application.frmpb.button2133.setText(res[2][1][3][3]);
+		application.frmpb.button2211.setText(res[2][2][1][1]);
+		application.frmpb.button2212.setText(res[2][2][1][2]);
+		application.frmpb.button2213.setText(res[2][2][1][3]);
+		application.frmpb.button2221.setText(res[2][2][2][1]);
+		application.frmpb.button2222.setText(res[2][2][2][2]);
+		application.frmpb.button2223.setText(res[2][2][2][3]);
+		application.frmpb.button2231.setText(res[2][2][3][1]);
+		application.frmpb.button2232.setText(res[2][2][3][2]);
+		application.frmpb.button2233.setText(res[2][2][3][3]);
+		application.frmpb.button2311.setText(res[2][3][1][1]);
+		application.frmpb.button2312.setText(res[2][3][1][2]);
+		application.frmpb.button2313.setText(res[2][3][1][3]);
+		application.frmpb.button2321.setText(res[2][3][2][1]);
+		application.frmpb.button2322.setText(res[2][3][2][2]);
+		application.frmpb.button2323.setText(res[2][3][2][3]);
+		application.frmpb.button2331.setText(res[2][3][3][1]);
+		application.frmpb.button2332.setText(res[2][3][3][2]);
+		application.frmpb.button2333.setText(res[2][3][3][3]);
+		
+		application.frmpb.button3111.setText(res[3][1][1][1]);
+		application.frmpb.button3112.setText(res[3][1][1][2]);
+		application.frmpb.button3113.setText(res[3][1][1][3]);
+		application.frmpb.button3121.setText(res[3][1][2][1]);
+		application.frmpb.button3122.setText(res[3][1][2][2]);
+		application.frmpb.button3123.setText(res[3][1][2][3]);
+		application.frmpb.button3131.setText(res[3][1][3][1]);
+		application.frmpb.button3132.setText(res[3][1][3][2]);
+		application.frmpb.button3133.setText(res[3][1][3][3]);
+		application.frmpb.button3211.setText(res[3][2][1][1]);
+		application.frmpb.button3212.setText(res[3][2][1][2]);
+		application.frmpb.button3213.setText(res[3][2][1][3]);
+		application.frmpb.button3221.setText(res[3][2][2][1]);
+		application.frmpb.button3222.setText(res[3][2][2][2]);
+		application.frmpb.button3223.setText(res[3][2][2][3]);
+		application.frmpb.button3231.setText(res[3][2][3][1]);
+		application.frmpb.button3232.setText(res[3][2][3][2]);
+		application.frmpb.button3233.setText(res[3][2][3][3]);
+		application.frmpb.button3311.setText(res[3][3][1][1]);
+		application.frmpb.button3312.setText(res[3][3][1][2]);
+		application.frmpb.button3313.setText(res[3][3][1][3]);
+		application.frmpb.button3321.setText(res[3][3][2][1]);
+		application.frmpb.button3322.setText(res[3][3][2][2]);
+		application.frmpb.button3323.setText(res[3][3][2][3]);
+		application.frmpb.button3331.setText(res[3][3][3][1]);
+		application.frmpb.button3332.setText(res[3][3][3][2]);
+		application.frmpb.button3333.setText(res[3][3][3][3]);
+	}
 	
-	/*電腦遞迴的函式*/
-	void computerrecursion(int i,int j,String[][][][] localres){
-		/*如果已求出解答，則不需要再進遞迴了*/
-		if(!computerresult){
-			int x,y;
-			int t;
-			
-			/*檢查現階段還有哪個值未填*/
-			for(t=1;t<10;t++){
-				if(!(localres[i][j][1][1]).equals(Integer.toString(t)) && !(localres[i][j][2][1]).equals(Integer.toString(t)) && !(localres[i][j][3][1]).equals(Integer.toString(t)) && !(localres[i][j][1][2]).equals(Integer.toString(t)) && !(localres[i][j][2][2]).equals(Integer.toString(t)) && !(localres[i][j][3][2]).equals(Integer.toString(t)) && !(localres[i][j][1][3]).equals(Integer.toString(t)) && !(localres[i][j][2][3]).equals(Integer.toString(t)) && !(localres[i][j][3][3]).equals(Integer.toString(t))){
-					break;
+	/*確認一下現在所在的直列及橫列是否有重複的值，或者該黃列及直列任一樣加上目前的值是否已超過45，若有其中之一的情況則傳回false，反之傳回true*/
+	boolean needsign(int i,int j, int k,int l,String[][][][] tempres,int t){
+		int x,y;
+		int v;
+		int colsum=0,rowsum=0;
+		boolean flag=true;
+		
+		for(x=1;x<4;x++){
+			for(y=1;y<4;y++){
+				//檢查橫列
+				if(!tempres[x][j][y][l].equals("   ")){
+					v=Integer.parseInt(tempres[x][j][y][l]);
+					colsum+=v;
+					if(v==t){
+						flag=false;
+						break;
+					}
+				}
+				
+				//檢查直列
+				if(!tempres[i][x][k][y].equals("   ")){
+					v=Integer.parseInt(tempres[i][x][k][y]);
+					rowsum+=v;
+					if(v==t){
+						flag=false;
+						break;
+					}
 				}
 			}
-			System.out.println(i+"-"+j+"-"+t);
 			
-			/*檢查是否小於10，如果小於10代表仍有還未填入的值，否則已經找不到空位了，自動跳下一個大框框*/
-			if(t<10){
-				/*每一個還沒填入的都跳下去嘗試做遞迴*/
-				for(x=1;x<4;x++){
-					for(y=1;y<4;y++){
-						if((localres[i][j][x][y]).equals("   ")){
-							localres[i][j][x][y]=Integer.toString(t);
-							computerrecursion(i,j,localres);
+			if(!flag)
+				break;
+		}
+		
+		if(colsum+t>45 || rowsum+t>45)
+			flag=false;
+		
+		return flag;
+	}
+	
+	/*印出目前的數值資料*/
+	void dumparray(String[][][][] tempres){
+		for(int q=1;q<4;q++){
+			for(int w=1;w<4;w++){
+				for(int e=1;e<4;e++){
+					for(int r=1;r<4;r++){
+						if(tempres[q][w][e][r].equals("   ")){
+							System.out.print("0");
+						}else{
+							System.out.print(tempres[q][w][e][r]);
 						}
 					}
+				}
+				System.out.println();
+			}
+		}
+	}
+	
+	/*電腦遞迴的函式*/
+	void computerrecursion(int i,int j,String[][][][] localres,int depth){
+		/*如果已求出解答，則不需要再進遞迴了*/
+		if(!computerresult){
+			int x,y,m,n;
+			int t;
+			boolean eversign;
+			boolean interrupt=false;
+			boolean[] area=new boolean[10];
+			
+			
+			/*另外製作一個給遞歸用，儲存本次結果的多維陣列*/
+			String[][][][] tempres=new String[4][4][4][4];
+			
+			/*初始化資料，從父層把資料傳進來*/
+			for(x=1;x<4;x++){
+				for(y=1;y<4;y++){
+					for(m=1;m<4;m++){
+						for(n=1;n<4;n++){
+							tempres[x][y][m][n]=localres[x][y][m][n];
+						}
+					}
+				}
+			}
+				
+			
+			/*檢查現階段還有哪些值未填*/
+			for(t=1;t<10;t++){
+				if(!(tempres[i][j][1][1]).equals(Integer.toString(t)) && !(tempres[i][j][2][1]).equals(Integer.toString(t)) && !(tempres[i][j][3][1]).equals(Integer.toString(t)) && !(tempres[i][j][1][2]).equals(Integer.toString(t)) && !(tempres[i][j][2][2]).equals(Integer.toString(t)) && !(tempres[i][j][3][2]).equals(Integer.toString(t)) && !(tempres[i][j][1][3]).equals(Integer.toString(t)) && !(tempres[i][j][2][3]).equals(Integer.toString(t)) && !(tempres[i][j][3][3]).equals(Integer.toString(t))){
+					interrupt=true;
+					area[t]=false;
+				}else{
+					area[t]=true;
+				}
+			}
+			
+			
+			/*檢查是否有中斷過，若仍有還未填入的值，就針對此小框框做遞迴。否則若找不到空位了，就自動跳下一個大框框*/
+			if(interrupt){
+				/*找出小框框內每一個還沒填入的*/
+				for(eversign=true,x=1;x<4;x++){
+					for(y=1;y<4;y++){
+						if((tempres[i][j][x][y]).equals("   ")){
+							
+							/*拿所有還未填的值，跳下去嘗試做遞迴。並且把曾進來的記錄eversign清空，如果這格空白找不到任何可填的解，則直接把這條線斷了就好了*/
+							eversign=false;
+							for(t=9;t>0;t--){
+								if(!area[t]){
+									
+									/*比較要填入的值的該橫列及直列，如果沒有重複的數值，才是有必要填入去嘗試的數值*/
+									if(needsign(i,j,x,y,tempres,t)){
+										eversign=true;
+										
+										//System.out.println("*"+depth+"*");
+										//dumparray(tempres);
+										tempres[i][j][x][y]=Integer.toString(t);
+										computerrecursion(i,j,tempres,depth);
+										//System.out.println("**"+depth+"**");
+										//dumparray(tempres);
+									}
+								}
+							}
+						}
+						
+						if(!eversign)
+							break;
+					}
+					
+					if(!eversign)
+						break;
 				}
 			}else{
 				/*檢查是否已經是最後一個大框框了，如果是的話，把現有的結果填入檢測用的res，並呼叫函式checkwin來檢查是否獲勝了*/
 				if(i==3 && j==3){
 					/*將目前電腦解出的結果放到驗證用的四維陣列*/
-					int m,n;
 					for(x=1;x<4;x++){
 						for(y=1;y<4;y++){
 							for(m=1;m<4;m++){
 								for(n=1;n<4;n++){
-									res[x][y][m][n]=localres[x][y][m][n];
+									res[x][y][m][n]=tempres[x][y][m][n];
 								}
 							}
 						}
-					}
+					}					
 					
-					/*如果有求出任何一組解，則將已求解的變數改為on，以結束之後所有的遞迴*/
-					if(checkwin()){					
+					/*如果有求出任何一組解，則將已求解的變數改為on，以結束之後所有的遞迴。並且把畫面上的格子填上結果*/
+					if(checkwin()){		
+						signvalue();
 						computerresult=true;
 					}
 				}else{
 					/*如果橫列到底了，就往直列發展*/
 					if(j<3){
-						System.out.println("col");
-						computerrecursion(i,j+1,localres);
+						//System.out.println("col");
+						computerrecursion(i,j+1,tempres,depth+1);
 					}else{
-						System.out.println("row");
-						computerrecursion(i+1,j,localres);
+						//System.out.println("row");
+						computerrecursion(i+1,1,tempres,depth+1);
 					}
 				}
 			}
@@ -340,28 +827,15 @@ public class playboard extends JFrame {
 	
 	/*電腦思考解答*/
 	void computerhandle(){
-		int x,y,m,n;
-		
-		/*另外製作一個本地用，儲存結果的多維陣列*/
-		String[][][][] localres=new String[4][4][4][4];
-		
-		/*初始化資料*/
-		for(x=1;x<4;x++){
-			for(y=1;y<4;y++){
-				for(m=1;m<4;m++){
-					for(n=1;n<4;n++){
-						localres[x][y][m][n]="   ";
-					}
-				}
-			}
-		}
+		/*讀取模版檔*/
+		loadtemplate();
 
 		/*設定初始為還未找出解答，並開始由電腦思考*/
 		computerresult=false;
-		computerrecursion(1,1,localres);
+		computerrecursion(1,1,res,0);
 		
 		/*顯示電腦思考的結果*/
-		if(computerresult){
+		if(computerresult){			
 			JOptionPane.showMessageDialog(null, "電腦已得出正確解答！");
 		}else{
 			JOptionPane.showMessageDialog(null, "此題電腦求不出解答！");
@@ -442,7 +916,7 @@ public class playboard extends JFrame {
 		//final JButton button1111 = new JButton("   ");
 		button1111.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				if(!application.frmpb.slck[1]){
+				//if(!application.frmpb.slck[1]){
 					button1111.setText(textKeyinValue.getText());
 					res[1][1][1][1]=textKeyinValue.getText();
 					if(checkwin()){
@@ -450,7 +924,7 @@ public class playboard extends JFrame {
 						application.frmpc.setVisible(true);
 						application.frmpb.setVisible(false);
 					}
-				}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1111 = new GridBagConstraints();
@@ -462,13 +936,15 @@ public class playboard extends JFrame {
 		//final JButton button1121 = new JButton("   ");
 		button1121.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1121.setText(textKeyinValue.getText());
-				res[1][1][2][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[2]){
+					button1121.setText(textKeyinValue.getText());
+					res[1][1][2][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1121 = new GridBagConstraints();
@@ -480,13 +956,15 @@ public class playboard extends JFrame {
 		//final JButton button1131 = new JButton("   ");
 		button1131.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1131.setText(textKeyinValue.getText());
-				res[1][1][3][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[3]){
+					button1131.setText(textKeyinValue.getText());
+					res[1][1][3][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1131 = new GridBagConstraints();
@@ -498,13 +976,15 @@ public class playboard extends JFrame {
 		//final JButton button1112 = new JButton("   ");
 		button1112.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1112.setText(textKeyinValue.getText());
-				res[1][1][1][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[4]){
+					button1112.setText(textKeyinValue.getText());
+					res[1][1][1][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}	
 			}
 		});
 		GridBagConstraints gbc_button1112 = new GridBagConstraints();
@@ -516,13 +996,15 @@ public class playboard extends JFrame {
 		//final JButton button1122 = new JButton("   ");
 		button1122.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1122.setText(textKeyinValue.getText());
-				res[1][1][2][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[5]){
+					button1122.setText(textKeyinValue.getText());
+					res[1][1][2][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1122 = new GridBagConstraints();
@@ -534,13 +1016,15 @@ public class playboard extends JFrame {
 		//final JButton button1132 = new JButton("   ");
 		button1132.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1132.setText(textKeyinValue.getText());
-				res[1][1][3][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[6]){
+					button1132.setText(textKeyinValue.getText());
+					res[1][1][3][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1132 = new GridBagConstraints();
@@ -552,13 +1036,15 @@ public class playboard extends JFrame {
 		//final JButton button1113 = new JButton("   ");
 		button1113.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1113.setText(textKeyinValue.getText());
-				res[1][1][1][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[7]){
+					button1113.setText(textKeyinValue.getText());
+					res[1][1][1][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1113 = new GridBagConstraints();
@@ -570,13 +1056,15 @@ public class playboard extends JFrame {
 		//final JButton button1123 = new JButton("   ");
 		button1123.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1123.setText(textKeyinValue.getText());
-				res[1][1][2][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[8]){
+					button1123.setText(textKeyinValue.getText());
+					res[1][1][2][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1123 = new GridBagConstraints();
@@ -588,13 +1076,15 @@ public class playboard extends JFrame {
 		//final JButton button1133 = new JButton("   ");
 		button1133.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1133.setText(textKeyinValue.getText());
-				res[1][1][3][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[9]){
+					button1133.setText(textKeyinValue.getText());
+					res[1][1][3][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1133 = new GridBagConstraints();
@@ -620,13 +1110,15 @@ public class playboard extends JFrame {
 		//final JButton button2111 = new JButton("   ");
 		button2111.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2111.setText(textKeyinValue.getText());
-				res[2][1][1][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[10]){
+					button2111.setText(textKeyinValue.getText());
+					res[2][1][1][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2111 = new GridBagConstraints();
@@ -638,13 +1130,15 @@ public class playboard extends JFrame {
 		//final JButton button2121 = new JButton("   ");
 		button2121.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2121.setText(textKeyinValue.getText());
-				res[2][1][2][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				////if(!application.frmpb.slck[11]){
+					button2121.setText(textKeyinValue.getText());
+					res[2][1][2][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2121 = new GridBagConstraints();
@@ -656,13 +1150,15 @@ public class playboard extends JFrame {
 		//final JButton button2131 = new JButton("   ");
 		button2131.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2131.setText(textKeyinValue.getText());
-				res[2][1][3][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[12]){
+					button2131.setText(textKeyinValue.getText());
+					res[2][1][3][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2131 = new GridBagConstraints();
@@ -674,13 +1170,15 @@ public class playboard extends JFrame {
 		//final JButton button2112 = new JButton("   ");
 		button2112.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2112.setText(textKeyinValue.getText());
-				res[2][1][1][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[13]){
+					button2112.setText(textKeyinValue.getText());
+					res[2][1][1][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2112 = new GridBagConstraints();
@@ -692,13 +1190,15 @@ public class playboard extends JFrame {
 		//final JButton button2122 = new JButton("   ");
 		button2122.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2122.setText(textKeyinValue.getText());
-				res[2][1][2][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[14]){
+					button2122.setText(textKeyinValue.getText());
+					res[2][1][2][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2122 = new GridBagConstraints();
@@ -710,13 +1210,15 @@ public class playboard extends JFrame {
 		//final JButton button2132 = new JButton("   ");
 		button2132.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2132.setText(textKeyinValue.getText());
-				res[2][1][3][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[15]){
+					button2132.setText(textKeyinValue.getText());
+					res[2][1][3][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2132 = new GridBagConstraints();
@@ -728,13 +1230,15 @@ public class playboard extends JFrame {
 		//final JButton button2113 = new JButton("   ");
 		button2113.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2113.setText(textKeyinValue.getText());
-				res[2][1][1][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				////if(!application.frmpb.slck[16]){
+					button2113.setText(textKeyinValue.getText());
+					res[2][1][1][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2113 = new GridBagConstraints();
@@ -746,13 +1250,15 @@ public class playboard extends JFrame {
 		//final JButton button2123 = new JButton("   ");
 		button2123.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2123.setText(textKeyinValue.getText());
-				res[2][1][2][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[17]){
+					button2123.setText(textKeyinValue.getText());
+					res[2][1][2][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2123 = new GridBagConstraints();
@@ -764,13 +1270,15 @@ public class playboard extends JFrame {
 		//final JButton button2133 = new JButton("   ");
 		button2133.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2133.setText(textKeyinValue.getText());
-				res[2][1][3][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[18]){
+					button2133.setText(textKeyinValue.getText());
+					res[2][1][3][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2133 = new GridBagConstraints();
@@ -796,13 +1304,15 @@ public class playboard extends JFrame {
 		//final JButton button3111 = new JButton("   ");
 		button3111.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3111.setText(textKeyinValue.getText());
-				res[3][1][1][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[19]){
+					button3111.setText(textKeyinValue.getText());
+					res[3][1][1][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3111 = new GridBagConstraints();
@@ -814,13 +1324,15 @@ public class playboard extends JFrame {
 		//final JButton button3121 = new JButton("   ");
 		button3121.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3121.setText(textKeyinValue.getText());
-				res[3][1][2][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[20]){
+					button3121.setText(textKeyinValue.getText());
+					res[3][1][2][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3121 = new GridBagConstraints();
@@ -832,13 +1344,15 @@ public class playboard extends JFrame {
 		//final JButton button3131 = new JButton("   ");
 		button3131.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3131.setText(textKeyinValue.getText());
-				res[3][1][3][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[21]){
+					button3131.setText(textKeyinValue.getText());
+					res[3][1][3][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3131 = new GridBagConstraints();
@@ -850,13 +1364,15 @@ public class playboard extends JFrame {
 		//final JButton button3112 = new JButton("   ");
 		button3112.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3112.setText(textKeyinValue.getText());
-				res[3][1][1][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[22]){
+					button3112.setText(textKeyinValue.getText());
+					res[3][1][1][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3112 = new GridBagConstraints();
@@ -868,13 +1384,15 @@ public class playboard extends JFrame {
 		//final JButton button3122 = new JButton("   ");
 		button3122.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3122.setText(textKeyinValue.getText());
-				res[3][1][2][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[23]){
+					button3122.setText(textKeyinValue.getText());
+					res[3][1][2][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3122 = new GridBagConstraints();
@@ -886,13 +1404,15 @@ public class playboard extends JFrame {
 		//final JButton button3132 = new JButton("   ");
 		button3132.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3132.setText(textKeyinValue.getText());
-				res[3][1][3][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[24]){
+					button3132.setText(textKeyinValue.getText());
+					res[3][1][3][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3132 = new GridBagConstraints();
@@ -904,13 +1424,15 @@ public class playboard extends JFrame {
 		//final JButton button3113 = new JButton("   ");
 		button3113.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3113.setText(textKeyinValue.getText());
-				res[3][1][1][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[25]){
+					button3113.setText(textKeyinValue.getText());
+					res[3][1][1][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3113 = new GridBagConstraints();
@@ -922,13 +1444,15 @@ public class playboard extends JFrame {
 		//final JButton button3123 = new JButton("   ");
 		button3123.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3123.setText(textKeyinValue.getText());
-				res[3][1][2][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[26]){
+					button3123.setText(textKeyinValue.getText());
+					res[3][1][2][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3123 = new GridBagConstraints();
@@ -940,13 +1464,15 @@ public class playboard extends JFrame {
 		//final JButton button3133 = new JButton("   ");
 		button3133.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3133.setText(textKeyinValue.getText());
-				res[3][1][3][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[27]){
+					button3133.setText(textKeyinValue.getText());
+					res[3][1][3][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3133 = new GridBagConstraints();
@@ -972,13 +1498,15 @@ public class playboard extends JFrame {
 		//final JButton button1211 = new JButton("   ");
 		button1211.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1211.setText(textKeyinValue.getText());
-				res[1][2][1][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[28]){
+					button1211.setText(textKeyinValue.getText());
+					res[1][2][1][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1211 = new GridBagConstraints();
@@ -990,13 +1518,15 @@ public class playboard extends JFrame {
 		//final JButton button1221 = new JButton("   ");
 		button1221.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1221.setText(textKeyinValue.getText());
-				res[1][2][2][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[29]){
+					button1221.setText(textKeyinValue.getText());
+					res[1][2][2][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1221 = new GridBagConstraints();
@@ -1008,13 +1538,15 @@ public class playboard extends JFrame {
 		//final JButton button1231 = new JButton("   ");
 		button1231.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1231.setText(textKeyinValue.getText());
-				res[1][2][3][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[30]){
+					button1231.setText(textKeyinValue.getText());
+					res[1][2][3][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1231 = new GridBagConstraints();
@@ -1026,13 +1558,15 @@ public class playboard extends JFrame {
 		//final JButton button1212 = new JButton("   ");
 		button1212.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1212.setText(textKeyinValue.getText());
-				res[1][2][1][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[31]){
+					button1212.setText(textKeyinValue.getText());
+					res[1][2][1][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1212 = new GridBagConstraints();
@@ -1044,13 +1578,15 @@ public class playboard extends JFrame {
 		//final JButton button1222 = new JButton("   ");
 		button1222.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1222.setText(textKeyinValue.getText());
-				res[1][2][2][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[32]){
+					button1222.setText(textKeyinValue.getText());
+					res[1][2][2][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1222 = new GridBagConstraints();
@@ -1062,13 +1598,15 @@ public class playboard extends JFrame {
 		//final JButton button1232 = new JButton("   ");
 		button1232.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1232.setText(textKeyinValue.getText());
-				res[1][2][3][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[33]){
+					button1232.setText(textKeyinValue.getText());
+					res[1][2][3][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1232 = new GridBagConstraints();
@@ -1080,13 +1618,15 @@ public class playboard extends JFrame {
 		//final JButton button1213 = new JButton("   ");
 		button1213.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1213.setText(textKeyinValue.getText());
-				res[1][2][1][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[34]){
+					button1213.setText(textKeyinValue.getText());
+					res[1][2][1][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1213 = new GridBagConstraints();
@@ -1098,13 +1638,15 @@ public class playboard extends JFrame {
 		//final JButton button1223 = new JButton("   ");
 		button1223.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1223.setText(textKeyinValue.getText());
-				res[1][2][2][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[35]){
+					button1223.setText(textKeyinValue.getText());
+					res[1][2][2][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1223 = new GridBagConstraints();
@@ -1116,13 +1658,15 @@ public class playboard extends JFrame {
 		//final JButton button1233 = new JButton("   ");
 		button1233.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1233.setText(textKeyinValue.getText());
-				res[1][2][3][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[36]){
+					button1233.setText(textKeyinValue.getText());
+					res[1][2][3][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1233 = new GridBagConstraints();
@@ -1148,13 +1692,15 @@ public class playboard extends JFrame {
 		//final JButton button2211 = new JButton("   ");
 		button2211.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2211.setText(textKeyinValue.getText());
-				res[2][2][1][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[37]){
+					button2211.setText(textKeyinValue.getText());
+					res[2][2][1][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2211 = new GridBagConstraints();
@@ -1166,13 +1712,15 @@ public class playboard extends JFrame {
 		//final JButton button2221 = new JButton("   ");
 		button2221.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2221.setText(textKeyinValue.getText());
-				res[2][2][2][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[38]){
+					button2221.setText(textKeyinValue.getText());
+					res[2][2][2][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2221 = new GridBagConstraints();
@@ -1184,13 +1732,15 @@ public class playboard extends JFrame {
 		//final JButton button2231 = new JButton("   ");
 		button2231.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2231.setText(textKeyinValue.getText());
-				res[2][2][3][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[39]){
+					button2231.setText(textKeyinValue.getText());
+					res[2][2][3][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2231 = new GridBagConstraints();
@@ -1202,13 +1752,15 @@ public class playboard extends JFrame {
 		//final JButton button2212 = new JButton("   ");
 		button2212.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2212.setText(textKeyinValue.getText());
-				res[2][2][1][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[40]){
+					button2212.setText(textKeyinValue.getText());
+					res[2][2][1][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2212 = new GridBagConstraints();
@@ -1220,13 +1772,15 @@ public class playboard extends JFrame {
 		//final JButton button2222 = new JButton("   ");
 		button2222.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2222.setText(textKeyinValue.getText());
-				res[2][2][2][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[41]){
+					button2222.setText(textKeyinValue.getText());
+					res[2][2][2][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2222 = new GridBagConstraints();
@@ -1238,13 +1792,15 @@ public class playboard extends JFrame {
 		//final JButton button2232 = new JButton("   ");
 		button2232.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2232.setText(textKeyinValue.getText());
-				res[2][2][3][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[42]){
+					button2232.setText(textKeyinValue.getText());
+					res[2][2][3][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2232 = new GridBagConstraints();
@@ -1256,13 +1812,15 @@ public class playboard extends JFrame {
 		//final JButton button2213 = new JButton("   ");
 		button2213.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2213.setText(textKeyinValue.getText());
-				res[2][2][1][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[43]){
+					button2213.setText(textKeyinValue.getText());
+					res[2][2][1][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2213 = new GridBagConstraints();
@@ -1274,13 +1832,15 @@ public class playboard extends JFrame {
 		//final JButton button2223 = new JButton("   ");
 		button2223.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2223.setText(textKeyinValue.getText());
-				res[2][2][2][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[44]){
+					button2223.setText(textKeyinValue.getText());
+					res[2][2][2][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2223 = new GridBagConstraints();
@@ -1292,13 +1852,15 @@ public class playboard extends JFrame {
 		//final JButton button2233 = new JButton("   ");
 		button2233.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button2233.setText(textKeyinValue.getText());
-				res[2][2][3][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[45]){	
+					button2233.setText(textKeyinValue.getText());
+					res[2][2][3][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button2233 = new GridBagConstraints();
@@ -1324,13 +1886,15 @@ public class playboard extends JFrame {
 		//final JButton button3211 = new JButton("   ");
 		button3211.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3211.setText(textKeyinValue.getText());
-				res[3][2][1][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[46]){
+					button3211.setText(textKeyinValue.getText());
+					res[3][2][1][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3211 = new GridBagConstraints();
@@ -1342,13 +1906,15 @@ public class playboard extends JFrame {
 		//final JButton button3221 = new JButton("   ");
 		button3221.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3221.setText(textKeyinValue.getText());
-				res[3][2][2][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[47]){
+					button3221.setText(textKeyinValue.getText());
+					res[3][2][2][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3221 = new GridBagConstraints();
@@ -1360,13 +1926,15 @@ public class playboard extends JFrame {
 		//final JButton button3231 = new JButton("   ");
 		button3231.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3231.setText(textKeyinValue.getText());
-				res[3][2][3][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[48]){
+					button3231.setText(textKeyinValue.getText());
+					res[3][2][3][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3231 = new GridBagConstraints();
@@ -1378,13 +1946,15 @@ public class playboard extends JFrame {
 		//final JButton button3212 = new JButton("   ");
 		button3212.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3212.setText(textKeyinValue.getText());
-				res[3][2][1][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[49]){
+					button3212.setText(textKeyinValue.getText());
+					res[3][2][1][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3212 = new GridBagConstraints();
@@ -1396,13 +1966,15 @@ public class playboard extends JFrame {
 		//final JButton button3222 = new JButton("   ");
 		button3222.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3222.setText(textKeyinValue.getText());
-				res[3][2][2][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[50]){
+					button3222.setText(textKeyinValue.getText());
+					res[3][2][2][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3222 = new GridBagConstraints();
@@ -1414,13 +1986,15 @@ public class playboard extends JFrame {
 		//final JButton button3232 = new JButton("   ");
 		button3232.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3232.setText(textKeyinValue.getText());
-				res[3][2][3][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[51]){
+					button3232.setText(textKeyinValue.getText());
+					res[3][2][3][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3232 = new GridBagConstraints();
@@ -1432,13 +2006,15 @@ public class playboard extends JFrame {
 		//final JButton button3213 = new JButton("   ");
 		button3213.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3213.setText(textKeyinValue.getText());
-				res[3][2][1][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[52]){
+					button3213.setText(textKeyinValue.getText());
+					res[3][2][1][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3213 = new GridBagConstraints();
@@ -1450,13 +2026,15 @@ public class playboard extends JFrame {
 		//final JButton button3223 = new JButton("   ");
 		button3223.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3223.setText(textKeyinValue.getText());
-				res[3][2][2][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[53]){
+					button3223.setText(textKeyinValue.getText());
+					res[3][2][2][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3223 = new GridBagConstraints();
@@ -1468,13 +2046,15 @@ public class playboard extends JFrame {
 		//final JButton button3233 = new JButton("   ");
 		button3233.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button3233.setText(textKeyinValue.getText());
-				res[3][2][3][3]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[54]){
+					button3233.setText(textKeyinValue.getText());
+					res[3][2][3][3]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button3233 = new GridBagConstraints();
@@ -1500,13 +2080,15 @@ public class playboard extends JFrame {
 		//final JButton button1311 = new JButton("   ");
 		button1311.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1311.setText(textKeyinValue.getText());
-				res[1][3][1][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[55]){
+					button1311.setText(textKeyinValue.getText());
+					res[1][3][1][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1311 = new GridBagConstraints();
@@ -1518,13 +2100,15 @@ public class playboard extends JFrame {
 		//final JButton button1321 = new JButton("   ");
 		button1321.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1321.setText(textKeyinValue.getText());
-				res[1][3][2][1]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[56]){
+					button1321.setText(textKeyinValue.getText());
+					res[1][3][2][1]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1321 = new GridBagConstraints();
@@ -1536,13 +2120,15 @@ public class playboard extends JFrame {
 		//final JButton button1331 = new JButton("   ");
 		button1331.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1331.setText(textKeyinValue.getText());
-				res[1][3][3][1]=textKeyinValue.getText();
-				if(checkwin()){					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-				application.frmpc.setVisible(true);
-				application.frmpb.setVisible(false);
-					
-				}
+				//if(!application.frmpb.slck[57]){
+					button1331.setText(textKeyinValue.getText());
+					res[1][3][3][1]=textKeyinValue.getText();
+					if(checkwin()){					
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);	
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1331 = new GridBagConstraints();
@@ -1554,13 +2140,15 @@ public class playboard extends JFrame {
 		//final JButton button1312 = new JButton("   ");
 		button1312.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1312.setText(textKeyinValue.getText());
-				res[1][3][1][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[58]){
+					button1312.setText(textKeyinValue.getText());
+					res[1][3][1][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1312 = new GridBagConstraints();
@@ -1572,13 +2160,15 @@ public class playboard extends JFrame {
 		//final JButton button1322 = new JButton("   ");
 		button1322.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1322.setText(textKeyinValue.getText());
-				res[1][3][2][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[59]){
+					button1322.setText(textKeyinValue.getText());
+					res[1][3][2][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1322 = new GridBagConstraints();
@@ -1590,13 +2180,15 @@ public class playboard extends JFrame {
 		//final JButton button1332 = new JButton("   ");
 		button1332.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				button1332.setText(textKeyinValue.getText());
-				res[1][3][3][2]=textKeyinValue.getText();
-				if(checkwin()){
-					JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
-					application.frmpc.setVisible(true);
-					application.frmpb.setVisible(false);
-				}
+				//if(!application.frmpb.slck[60]){
+					button1332.setText(textKeyinValue.getText());
+					res[1][3][3][2]=textKeyinValue.getText();
+					if(checkwin()){
+						JOptionPane.showMessageDialog(null, "玩家已得出正確解答！");
+						application.frmpc.setVisible(true);
+						application.frmpb.setVisible(false);
+					}
+				//}
 			}
 		});
 		GridBagConstraints gbc_button1332 = new GridBagConstraints();

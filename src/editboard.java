@@ -138,7 +138,7 @@ public class editboard extends JFrame {
 	}
 	
 	
-	/*讀取編輯的遊戲面版99999*/
+	/*讀取編輯的遊戲面版*/
 	public static void loadtemplate(){
 		int i;
 		String[] s=new String[82];
@@ -170,12 +170,161 @@ public class editboard extends JFrame {
 		application.frmeb.button1133.setText(s[9]);
 		application.frmeb.res[1][1][3][3]=s[9];
 		
-
+		application.frmeb.button1211.setText(s[10]);
+		application.frmeb.res[1][2][1][1]=s[10];
+		application.frmeb.button1212.setText(s[11]);
+		application.frmeb.res[1][2][1][2]=s[11];
+		application.frmeb.button1213.setText(s[12]);
+		application.frmeb.res[1][2][1][3]=s[12];
+		application.frmeb.button1221.setText(s[13]);
+		application.frmeb.res[1][2][2][1]=s[13];
+		application.frmeb.button1222.setText(s[14]);
+		application.frmeb.res[1][2][2][2]=s[14];
+		application.frmeb.button1223.setText(s[15]);
+		application.frmeb.res[1][2][2][3]=s[15];
+		application.frmeb.button1231.setText(s[16]);
+		application.frmeb.res[1][2][3][1]=s[16];
+		application.frmeb.button1232.setText(s[17]);
+		application.frmeb.res[1][2][3][2]=s[17];
+		application.frmeb.button1233.setText(s[18]);
+		application.frmeb.res[1][2][3][3]=s[18];
+		application.frmeb.button1311.setText(s[19]);
+		application.frmeb.res[1][3][1][1]=s[19];
+		application.frmeb.button1312.setText(s[20]);
+		application.frmeb.res[1][3][1][2]=s[20];
+		application.frmeb.button1313.setText(s[21]);
+		application.frmeb.res[1][3][1][3]=s[21];
+		application.frmeb.button1321.setText(s[22]);
+		application.frmeb.res[1][3][2][1]=s[22];
+		application.frmeb.button1322.setText(s[23]);
+		application.frmeb.res[1][3][2][2]=s[23];
+		application.frmeb.button1323.setText(s[24]);
+		application.frmeb.res[1][3][2][3]=s[24];
+		application.frmeb.button1331.setText(s[25]);
+		application.frmeb.res[1][3][3][1]=s[25];
+		application.frmeb.button1332.setText(s[26]);
+		application.frmeb.res[1][3][3][2]=s[26];
+		application.frmeb.button1333.setText(s[27]);
+		application.frmeb.res[1][3][3][3]=s[27];
+		
+		application.frmeb.button2111.setText(s[28]);
+		application.frmeb.res[2][1][1][1]=s[28];
+		application.frmeb.button2112.setText(s[29]);
+		application.frmeb.res[2][1][1][2]=s[29];
+		application.frmeb.button2113.setText(s[30]);
+		application.frmeb.res[2][1][1][3]=s[30];
+		application.frmeb.button2121.setText(s[31]);
+		application.frmeb.res[2][1][2][1]=s[31];
+		application.frmeb.button2122.setText(s[32]);
+		application.frmeb.res[2][1][2][2]=s[32];
+		application.frmeb.button2123.setText(s[33]);
+		application.frmeb.res[2][1][2][3]=s[33];
+		application.frmeb.button2131.setText(s[34]);
+		application.frmeb.res[2][1][3][1]=s[34];
+		application.frmeb.button2132.setText(s[35]);
+		application.frmeb.res[2][1][3][2]=s[35];
+		application.frmeb.button2133.setText(s[36]);
+		application.frmeb.res[2][1][3][3]=s[36];
+		
+		application.frmeb.button2211.setText(s[37]);
+		application.frmeb.res[2][2][1][1]=s[37];
+		application.frmeb.button2212.setText(s[38]);
+		application.frmeb.res[2][2][1][2]=s[38];
+		application.frmeb.button2213.setText(s[39]);
+		application.frmeb.res[2][2][1][3]=s[39];
+		application.frmeb.button2221.setText(s[40]);
+		application.frmeb.res[2][2][2][1]=s[40];
+		application.frmeb.button2222.setText(s[41]);
+		application.frmeb.res[2][2][2][2]=s[41];
+		application.frmeb.button2223.setText(s[42]);
+		application.frmeb.res[2][2][2][3]=s[42];
+		application.frmeb.button2231.setText(s[43]);
+		application.frmeb.res[2][2][3][1]=s[43];
+		application.frmeb.button2232.setText(s[44]);
+		application.frmeb.res[2][2][3][2]=s[44];
+		application.frmeb.button2233.setText(s[45]);
+		application.frmeb.res[2][2][3][3]=s[45];
+		
+		application.frmeb.button2311.setText(s[46]);
+		application.frmeb.res[2][3][1][1]=s[46];
+		application.frmeb.button2312.setText(s[47]);
+		application.frmeb.res[2][3][1][2]=s[47];
+		application.frmeb.button2313.setText(s[48]);
+		application.frmeb.res[2][3][1][3]=s[48];
+		application.frmeb.button2321.setText(s[49]);
+		application.frmeb.res[2][3][2][1]=s[49];
+		application.frmeb.button2322.setText(s[50]);
+		application.frmeb.res[2][3][2][2]=s[50];
+		application.frmeb.button2323.setText(s[51]);
+		application.frmeb.res[2][3][2][3]=s[51];
+		application.frmeb.button2331.setText(s[52]);
+		application.frmeb.res[2][3][3][1]=s[52];
+		application.frmeb.button2332.setText(s[53]);
+		application.frmeb.res[2][3][3][2]=s[53];
+		application.frmeb.button2333.setText(s[54]);
+		application.frmeb.res[2][3][3][3]=s[54];
+		
+		application.frmeb.button3111.setText(s[55]);
+		application.frmeb.res[3][1][1][1]=s[55];
+		application.frmeb.button3112.setText(s[56]);
+		application.frmeb.res[3][1][1][2]=s[56];
+		application.frmeb.button3113.setText(s[57]);
+		application.frmeb.res[3][1][1][3]=s[57];
+		application.frmeb.button3121.setText(s[58]);
+		application.frmeb.res[3][1][2][1]=s[58];
+		application.frmeb.button3122.setText(s[59]);
+		application.frmeb.res[3][1][2][2]=s[59];
+		application.frmeb.button3123.setText(s[60]);
+		application.frmeb.res[3][1][2][3]=s[60];
+		application.frmeb.button3131.setText(s[61]);
+		application.frmeb.res[3][1][3][1]=s[61];
+		application.frmeb.button3132.setText(s[62]);
+		application.frmeb.res[3][1][3][2]=s[62];
+		application.frmeb.button3133.setText(s[63]);
+		application.frmeb.res[3][1][3][3]=s[63];
+		
+		application.frmeb.button3211.setText(s[64]);
+		application.frmeb.res[3][2][1][1]=s[64];
+		application.frmeb.button3212.setText(s[65]);
+		application.frmeb.res[3][2][1][2]=s[65];
+		application.frmeb.button3213.setText(s[66]);
+		application.frmeb.res[3][2][1][3]=s[66];
+		application.frmeb.button3221.setText(s[67]);
+		application.frmeb.res[3][2][2][1]=s[67];
+		application.frmeb.button3222.setText(s[68]);
+		application.frmeb.res[3][2][2][2]=s[68];
+		application.frmeb.button3223.setText(s[69]);
+		application.frmeb.res[3][2][2][3]=s[69];
+		application.frmeb.button3231.setText(s[70]);
+		application.frmeb.res[3][2][3][1]=s[70];
+		application.frmeb.button3232.setText(s[71]);
+		application.frmeb.res[3][2][3][2]=s[71];
+		application.frmeb.button3233.setText(s[72]);
+		application.frmeb.res[3][2][3][3]=s[72];
+		
+		application.frmeb.button3311.setText(s[73]);
+		application.frmeb.res[3][3][1][1]=s[73];
+		application.frmeb.button3312.setText(s[74]);
+		application.frmeb.res[3][3][1][2]=s[74];
+		application.frmeb.button3313.setText(s[75]);
+		application.frmeb.res[3][3][1][3]=s[75];
+		application.frmeb.button3321.setText(s[76]);
+		application.frmeb.res[3][3][2][1]=s[76];
+		application.frmeb.button3322.setText(s[77]);
+		application.frmeb.res[3][3][2][2]=s[77];
+		application.frmeb.button3323.setText(s[78]);
+		application.frmeb.res[3][3][2][3]=s[78];
+		application.frmeb.button3331.setText(s[79]);
+		application.frmeb.res[3][3][3][1]=s[79];
+		application.frmeb.button3332.setText(s[80]);
+		application.frmeb.res[3][3][3][2]=s[80];
+		application.frmeb.button3333.setText(s[81]);
+		application.frmeb.res[3][3][3][3]=s[81];
 		
 	}
 	
 	
-	/*清除編輯的遊戲面版99999*/
+	/*清除編輯的遊戲面版*/
 	public static void cleartemplate(){
 		application.frmeb.button1111.setText("   ");
 		application.frmeb.res[1][1][1][1]="   ";
@@ -196,8 +345,157 @@ public class editboard extends JFrame {
 		application.frmeb.button1133.setText("   ");
 		application.frmeb.res[1][1][3][3]="   ";
 		
+		application.frmeb.button1211.setText("   ");
+		application.frmeb.res[1][2][1][1]="   ";
+		application.frmeb.button1212.setText("   ");
+		application.frmeb.res[1][2][1][2]="   ";
+		application.frmeb.button1213.setText("   ");
+		application.frmeb.res[1][2][1][3]="   ";
+		application.frmeb.button1221.setText("   ");
+		application.frmeb.res[1][2][2][1]="   ";
+		application.frmeb.button1222.setText("   ");
+		application.frmeb.res[1][2][2][2]="   ";
+		application.frmeb.button1223.setText("   ");
+		application.frmeb.res[1][2][2][3]="   ";
+		application.frmeb.button1231.setText("   ");
+		application.frmeb.res[1][2][3][1]="   ";
+		application.frmeb.button1232.setText("   ");
+		application.frmeb.res[1][2][3][2]="   ";
+		application.frmeb.button1233.setText("   ");
+		application.frmeb.res[1][2][3][3]="   ";
+		application.frmeb.button1311.setText("   ");
+		application.frmeb.res[1][3][1][1]="   ";
+		application.frmeb.button1312.setText("   ");
+		application.frmeb.res[1][3][1][2]="   ";
+		application.frmeb.button1313.setText("   ");
+		application.frmeb.res[1][3][1][3]="   ";
+		application.frmeb.button1321.setText("   ");
+		application.frmeb.res[1][3][2][1]="   ";
+		application.frmeb.button1322.setText("   ");
+		application.frmeb.res[1][3][2][2]="   ";
+		application.frmeb.button1323.setText("   ");
+		application.frmeb.res[1][3][2][3]="   ";
+		application.frmeb.button1331.setText("   ");
+		application.frmeb.res[1][3][3][1]="   ";
+		application.frmeb.button1332.setText("   ");
+		application.frmeb.res[1][3][3][2]="   ";
+		application.frmeb.button1333.setText("   ");
+		application.frmeb.res[1][3][3][3]="   ";
 		
+		application.frmeb.button2111.setText("   ");
+		application.frmeb.res[2][1][1][1]="   ";
+		application.frmeb.button2112.setText("   ");
+		application.frmeb.res[2][1][1][2]="   ";
+		application.frmeb.button1113.setText("   ");
+		application.frmeb.res[2][1][1][3]="   ";
+		application.frmeb.button2121.setText("   ");
+		application.frmeb.res[2][1][2][1]="   ";
+		application.frmeb.button2122.setText("   ");
+		application.frmeb.res[2][1][2][2]="   ";
+		application.frmeb.button2123.setText("   ");
+		application.frmeb.res[2][1][2][3]="   ";
+		application.frmeb.button2131.setText("   ");
+		application.frmeb.res[2][1][3][1]="   ";
+		application.frmeb.button2132.setText("   ");
+		application.frmeb.res[2][1][3][2]="   ";
+		application.frmeb.button2133.setText("   ");
+		application.frmeb.res[2][1][3][3]="   ";
 		
+		application.frmeb.button2211.setText("   ");
+		application.frmeb.res[2][2][1][1]="   ";
+		application.frmeb.button2212.setText("   ");
+		application.frmeb.res[2][2][1][2]="   ";
+		application.frmeb.button2213.setText("   ");
+		application.frmeb.res[2][2][1][3]="   ";
+		application.frmeb.button2221.setText("   ");
+		application.frmeb.res[2][2][2][1]="   ";
+		application.frmeb.button2222.setText("   ");
+		application.frmeb.res[2][2][2][2]="   ";
+		application.frmeb.button2223.setText("   ");
+		application.frmeb.res[2][2][2][3]="   ";
+		application.frmeb.button2231.setText("   ");
+		application.frmeb.res[2][2][3][1]="   ";
+		application.frmeb.button2232.setText("   ");
+		application.frmeb.res[2][2][3][2]="   ";
+		application.frmeb.button2233.setText("   ");
+		application.frmeb.res[2][2][3][3]="   ";
+		
+		application.frmeb.button2311.setText("   ");
+		application.frmeb.res[2][3][1][1]="   ";
+		application.frmeb.button2312.setText("   ");
+		application.frmeb.res[2][3][1][2]="   ";
+		application.frmeb.button2313.setText("   ");
+		application.frmeb.res[2][3][1][3]="   ";
+		application.frmeb.button2321.setText("   ");
+		application.frmeb.res[2][3][2][1]="   ";
+		application.frmeb.button2322.setText("   ");
+		application.frmeb.res[2][3][2][2]="   ";
+		application.frmeb.button2323.setText("   ");
+		application.frmeb.res[2][3][2][3]="   ";
+		application.frmeb.button2331.setText("   ");
+		application.frmeb.res[2][3][3][1]="   ";
+		application.frmeb.button2332.setText("   ");
+		application.frmeb.res[2][3][3][2]="   ";
+		application.frmeb.button2333.setText("   ");
+		application.frmeb.res[2][3][3][3]="   ";
+		
+		application.frmeb.button3111.setText("   ");
+		application.frmeb.res[3][1][1][1]="   ";
+		application.frmeb.button3112.setText("   ");
+		application.frmeb.res[3][1][1][2]="   ";
+		application.frmeb.button3113.setText("   ");
+		application.frmeb.res[3][1][1][3]="   ";
+		application.frmeb.button3121.setText("   ");
+		application.frmeb.res[3][1][2][1]="   ";
+		application.frmeb.button3122.setText("   ");
+		application.frmeb.res[3][1][2][2]="   ";
+		application.frmeb.button3123.setText("   ");
+		application.frmeb.res[3][1][2][3]="   ";
+		application.frmeb.button3131.setText("   ");
+		application.frmeb.res[3][1][3][1]="   ";
+		application.frmeb.button3132.setText("   ");
+		application.frmeb.res[3][1][3][2]="   ";
+		application.frmeb.button3133.setText("   ");
+		application.frmeb.res[3][1][3][3]="   ";
+		
+		application.frmeb.button3211.setText("   ");
+		application.frmeb.res[3][2][1][1]="   ";
+		application.frmeb.button3212.setText("   ");
+		application.frmeb.res[3][2][1][2]="   ";
+		application.frmeb.button3213.setText("   ");
+		application.frmeb.res[3][2][1][3]="   ";
+		application.frmeb.button3221.setText("   ");
+		application.frmeb.res[3][2][2][1]="   ";
+		application.frmeb.button3222.setText("   ");
+		application.frmeb.res[3][2][2][2]="   ";
+		application.frmeb.button3223.setText("   ");
+		application.frmeb.res[3][2][2][3]="   ";
+		application.frmeb.button3231.setText("   ");
+		application.frmeb.res[3][2][3][1]="   ";
+		application.frmeb.button3232.setText("   ");
+		application.frmeb.res[3][2][3][2]="   ";
+		application.frmeb.button3233.setText("   ");
+		application.frmeb.res[3][2][3][3]="   ";
+		
+		application.frmeb.button3311.setText("   ");
+		application.frmeb.res[3][3][1][1]="   ";
+		application.frmeb.button3312.setText("   ");
+		application.frmeb.res[3][3][1][2]="   ";
+		application.frmeb.button3313.setText("   ");
+		application.frmeb.res[3][3][1][3]="   ";
+		application.frmeb.button3321.setText("   ");
+		application.frmeb.res[3][3][2][1]="   ";
+		application.frmeb.button3322.setText("   ");
+		application.frmeb.res[3][3][2][2]="   ";
+		application.frmeb.button3323.setText("   ");
+		application.frmeb.res[3][3][2][3]="   ";
+		application.frmeb.button3331.setText("   ");
+		application.frmeb.res[3][3][3][1]="   ";
+		application.frmeb.button3332.setText("   ");
+		application.frmeb.res[3][3][3][2]="   ";
+		application.frmeb.button3333.setText("   ");
+		application.frmeb.res[3][3][3][3]="   ";
+				
 	}
 	
 	
